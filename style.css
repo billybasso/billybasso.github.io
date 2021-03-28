@@ -5,7 +5,7 @@
 
 body {
     font-size: small;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 .banner {
@@ -15,17 +15,25 @@ body {
     width: 400px;
 }
 
-footer img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 160px;
+footer {
+    margin-top: 8px;
 }
+
+    footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 160px;
+    }
 
 
 body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     color: white;
+    max-width: 900px;
 }
 
 h1 {
@@ -51,32 +59,98 @@ img {
     width: 640px;
 }
 
+.contactIcon {
+    padding: 4px;
+    width: 50px;
+    float:none;
+}
+
+
+iframe {
+    border: 2px solid white;
+    border-radius: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.demoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+    margin: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.button {
+    border: 2px solid white;
+    border-radius: 24px;
+    color: white;
+    background-color: black;
+    margin-left:8px;
+    float:left;
+}
+
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    
 }
+
+
+.mc_embed_signup_scroll {
+    float: left;
+}
+
+
+
+
+.email {
+    float: left;
+}
+
+
+contactBar {
+
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+.contactBar h1 {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .column {
-    float:left;
-    margin-left: 8px;
-    margin-right: 8px;
-    flex: 50%;
-    max-width: 45%;
+    float: left;
+    flex: 48%;
+    max-width: 50%;
+    padding-left:8px;
+    padding-right:8px;
 }
 
-    .column img {
-        border: 2px solid white;
-        margin: 8px;
-        vertical-align: middle;
-        width: 100%;
-        border-radius: 24px;
-    }
+.column img {
+    border: 2px solid white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 24px;
+}
 
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+
+
+.companyLogo{
+    width:100px;
+    float:right;
 }
