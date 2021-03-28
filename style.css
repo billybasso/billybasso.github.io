@@ -1,0 +1,25 @@
+
+body{
+    background-color:black;
+    color:white;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgreen;
+}
+p{
+  color:white;
+}
+
+a:link{
+    color:cornflowerblue;
+}
+a:visited{
+    color:mediumpurple;
+}
+
+img{
+    float:left;
+    width:640px;
+    border-radius: 10;
+}
