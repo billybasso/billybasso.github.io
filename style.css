@@ -1,25 +1,82 @@
 
-body{
-    background-color:black;
-    color:white;
+* {
+    font-family: Helvetica, sans-serif;
 }
+
+body {
+    font-size: small;
+    padding: 10px 10px 10px 10px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: lightgreen;
-}
-p{
-  color:white;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
-a:link{
-    color:cornflowerblue;
-}
-a:visited{
-    color:mediumpurple;
+p {
+    color: white;
 }
 
-img{
+a:link {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+
+img {
+    /*float:left;*/
+    width: 640px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.column {
     float:left;
-    width:640px;
-    border-radius: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+    flex: 50%;
+    max-width: 45%;
+}
+
+    .column img {
+        border: 2px solid white;
+        margin: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 24px;
+    }
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
