@@ -6,6 +6,7 @@
 body {
     font-size: small;
     padding: 20px 20px 20px 20px;
+    margin-bottom:20px;
 }
 
 .banner {
@@ -88,15 +89,26 @@ iframe {
 
 .button {
     border: 2px solid white;
-    border-radius: 24px;
-    color: white;
-    background-color: black;
-    margin-left:8px;
+    
+    border-bottom-right-radius : 12px;
+    border-top-right-radius : 12px;
+    color: black;
+    background-color: white;
+    margin-left:4px;
     float:left;
 }
 
-
-
+.email {
+    border: 2px solid white;
+    width:200px;
+    padding-left:8px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    color: white;
+    background-color: black;
+    
+    float: left;
+}
 
 .mc_embed_signup_scroll {
     float: left;
