@@ -119,9 +119,6 @@ iframe {
     float: left;
 }
 
-
-
-
 .email {
     float: left;
 }
@@ -155,9 +152,6 @@ contactBar {
 
 .column {
     float: left;
-    
-    
-    
 }
 
 .grid img {
@@ -172,6 +166,6 @@ footer{
 
 
 .companyLogo{
-    width:100px;
+    width:156px;
     float:right;
 }
