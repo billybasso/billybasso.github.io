@@ -1,7 +1,6 @@
 
 * {
     font-family: Helvetica, sans-serif;
-    image-rendering:pixelated;
 }
 
 body {
@@ -35,7 +34,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    image-rendering:pixelated;
     background-color: black;
     background-image: url("smallBunnies.png");
     background-size: contain;
