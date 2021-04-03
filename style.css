@@ -7,7 +7,8 @@ body {
     font-size: .9em;
     line-height: 125%;
     padding: 20px 20px 20px 20px;
-    margin-bottom: 20px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .banner {
@@ -22,20 +23,12 @@ footer {
     margin-top: 8px;
 }
 
-    footer img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 160px;
-    }
-
-
 body {
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    background-image: url("smallBunnies-export.png");
+    
     background-size: contain, auto;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -65,9 +58,7 @@ a:hover {
     color: aquamarine;
 }
 
-img {
-    width: 640px;
-}
+
 
 .contactIconButton {
     padding: 4px;
@@ -166,5 +157,11 @@ contactBar {
 }
 
 footer {
-    height: 350px;
+    image-rendering: pixelated;
 }
+
+    footer img {
+        width: 120%;
+        margin-left: -10%;
+        image-rendering: pixelated;
+    }
