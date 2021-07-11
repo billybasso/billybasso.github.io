@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>Shared Memory</title>
+  <based-in>Chicago, IL</based-in>
+  <founding-date>June 2020</founding-date>
+  <website>animalwell.net</website>
+  <press-contact>
+    <!-- Mail address -->
+    billy@sharedmemory.games
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics></analytics>
+
+  <phone></phone>
+  <address>
+    <line>
+      <!-- Street -->
+    </line>
+    <line>
+      <!-- City -->
+    </line>
+    <line>
+      <!-- Country -->
+    </line>
+  </address>
+
+  <socials>
+    <social>
+      <name>Twitter</name>
+      <link>
+        https://www.twitter.com/billy_basso
+        <!-- URL starting with http or https -->
+      </link>
+    </social>
+  </socials>
+
+  <description>Shared Memory Is the company that was formed for the purpose of releasing Animal Well. It aims to craft complete experiences that will be playable long after the world loses its internet connection.</description>
+
+  <!-- Choose between a single block: -->
+  <history></history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+ 
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person>Billy Basso</person>
+      <role>Owner</role>
+
+      <!-- Optional: -->
+      <website>https://twitter.com/billy_basso</website>
+    </credit>
+    <credit>
+      <person>Dan Adelman</person>
+      <role>Buisiness and Marketing</role>
+
+      <!-- Optional: -->
+      <website>https://leadman.games</website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Billy Basso</name>
+
+      <!-- Pick one: -->
+      <mail>billy@sharedmemory.games</mail>
+      <link></link>
+    </contact>
+    <contact>
+      <name>Dan Adelman</name>
+
+      <!-- Pick one: -->
+      <mail>dan@dan-adelman.com</mail>
+      <link></link>
+    </contact>
+  </contacts>
+</company>

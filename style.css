@@ -84,9 +84,7 @@ iframe {
 .demoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
-    margin: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: 0px;
     margin-bottom: 8px;
 }
 
@@ -124,6 +122,10 @@ iframe {
     float: left;
 }
 
+.presskit{
+    float:right;
+}
+
 contactBar {
     display: block;
     max-width: 100%;
@@ -139,7 +141,7 @@ contactBar {
 }
 
 .grid {
-    padding: 8px;
+    padding: 0px;
     padding-top: 16px;
     display: grid;
     grid-gap: 16px;
@@ -157,6 +159,7 @@ contactBar {
 .companyLogo {
     width: 156px;
     float: right;
+    margin-right:-6px;
 }
 
 footer {

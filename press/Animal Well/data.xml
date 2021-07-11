@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Animal Well</title>
+  <release-dates>
+    <release-date>2023</release-date>
+  </release-dates>
+
+  <website>https://www.AnimalWell.net</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request></press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>Not yet announced</name>
+      <link></link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency></currency>
+      <value>Not yet announced</value>
+    </price>
+  </prices>
+
+  <description>Animal Well is a video game about exploring a forsaken labyrinth and unravelling its secrets. You’ll collect items, solve puzzles, and try to survive what lurks in the dark.</description>
+
+  <!-- Choose between a single block: -->
+  <history>Animal Well has been being solo developed by Billy Basso since late 2017.</history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <features>
+    <feature>Dense, surreal, puzzle box world, with attention paid to every detail</feature>
+    <feature>The main game is just the beginning. People will be discovering hidden puzzles for years</feature>
+    <feature>Encounter creatures and sights both beautiful and demented -- assess what is safe and dangerous</feature>
+    <feature>Reimagines what pixel art can look like when taking full advantage of modern hardware</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Pre Alpha Trailer (2020)</name>
+
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+        Tvkra2Glqn4
+      </youtube>
+    </trailer>
+  </trailers>
+
+
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person>Billy Basso</person>
+      <role>Developer</role>
+
+      <!-- Optional: -->
+      <website>https://twitter.com/billy_basso</website>
+    </credit>
+    <credit>
+      <person>Dan Adelman</person>
+      <role>Business and Marketing</role>
+
+      <!-- Optional: -->
+      <website>https://leadman.games</website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Billy Basso</name>
+
+      <!-- Pick one: -->
+      <mail>billy@sharedmemory.games</mail>
+      <link></link>
+    </contact>
+    <contact>
+      <name>Dan Adelman</name>
+
+      <!-- Pick one: -->
+      <mail>dan@dan-adelman.com</mail>
+      <link></link>
+    </contact>
+  </contacts>
+</product>
