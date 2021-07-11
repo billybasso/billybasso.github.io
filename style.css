@@ -98,9 +98,9 @@ iframe {
     float: left;
 }
 
-    .subscribeButton:hover {
-        filter: brightness(75%);
-    }
+.subscribeButton:hover {
+    filter: brightness(75%);
+}
 
 
 .email {
@@ -122,8 +122,8 @@ iframe {
     float: left;
 }
 
-.presskit{
-    float:right;
+.presskit {
+    float: right;
 }
 
 contactBar {
@@ -159,7 +159,7 @@ contactBar {
 .companyLogo {
     width: 156px;
     float: right;
-    margin-right:-6px;
+    margin-right: -6px;
 }
 
 footer {
