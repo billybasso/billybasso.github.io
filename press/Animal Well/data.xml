@@ -27,7 +27,8 @@
   <description>Animal Well is a video game about exploring a forsaken labyrinth and unravelling its secrets. You’ll collect items, solve puzzles, and try to survive what lurks in the dark.</description>
 
   <!-- Choose between a single block: -->
-  <history>Animal Well has been being solo developed by Billy Basso since late 2017.</history>
+  <history>
+    I've been spending the last 10 years working as an engineer at various game studios, and during the past four, Animal Well has been percolating in the background. I wanted to see if I could take gameplay mechanics from survival horror games and apply them to something with a less edgy art style. I also wanted to create a game that is not dependent on updates or the internet, but is instead pre-loaded with secrets that may take years to uncover -- like a forgotten artifact, lost in time. I ended up making everything from scratch, including the engine, so I could have complete control over everything that went into the game. It will be my first independent release.</history>
 
   <!-- Or multiple blocks: -->
   <!--
