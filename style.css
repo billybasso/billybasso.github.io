@@ -125,6 +125,10 @@ iframe {
 .presskit {
     float: right;
 }
+.devLog {
+    float: left;
+}
+
 
 contactBar {
     display: block;
